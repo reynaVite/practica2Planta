@@ -1,0 +1,47 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "HelloWorldIntent",
+          "samples": [
+            "hello",
+            "how are you",
+            "say hello world",
+            "say hello",
+            "Hello World"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "PlantFactIntent",
+          "samples": [
+            "Give me a fun fact about plants",
+            "Tell me something interesting about plants",
+            "Tell me a plant fact",
+            "Give me a plant fact"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "plant angy"
+    }
+  }
+}
