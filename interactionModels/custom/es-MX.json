@@ -1,37 +1,47 @@
 {
-  "interactionModel": {
-    "languageModel": {
-      "intents": [
-        {
-          "name": "AMAZON.CancelIntent",
-          "samples": []
-        },
-        {
-          "name": "AMAZON.HelpIntent",
-          "samples": []
-        },
-        {
-          "name": "AMAZON.StopIntent",
-          "samples": []
-        },
-        {
-          "slots": [],
-          "name": "HelloWorldIntent",
-          "samples": [
-            "hola",
-            "como estás",
-            "di hola mundo",
-            "di hola",
-            "hola mundo"
-          ]
-        },
-        {
-          "name": "AMAZON.NavigateHomeIntent",
-          "samples": []
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "planta angy",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "HelloWorldIntent",
+                    "slots": [],
+                    "samples": [
+                        "hola",
+                        "como estás",
+                        "di hola mundo",
+                        "di hola",
+                        "hola mundo"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "PlantFactIntent",
+                    "slots": [],
+                    "samples": [
+                        "Dame un dato curioso sobre las plantas",
+                        "Dime un dato sobre las plantas",
+                        "Cuéntame algo interesante sobre las plantas",
+                        "Dame un hecho interesante sobre las plantas"
+                    ]
+                }
+            ],
+            "types": []
         }
-      ],
-      "types": [],
-      "invocationName": "planta angy"
     }
-  }
 }
